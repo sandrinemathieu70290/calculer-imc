@@ -1,0 +1,158 @@
+body {
+	margin:0px;
+	padding:0px;
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	background-color: grey;
+
+}
+.page{
+	background-color: rgb(241, 234, 235);
+	height: 100vh;
+}
+.titre{
+	color: grey;
+	text-align: left;
+	font-size: 25px;
+	font-family: 'Roboto Mono', monospace;
+	border-bottom: 3px solid grey;
+}
+.titre2{
+	margin-top: 20px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	background-color: grey;
+}
+.calcul{
+	margin-top: 20px;
+	padding: 10px;
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	background-color: grey;
+	margin-bottom: 30px;
+}
+.saisi{
+	max-width: 40%;
+	margin-right: 20px;
+	margin-top: 20px;
+	padding: 10px;
+	color: black;
+	text-align: center;
+	font-size: 18px;
+	font-family: 'Nunito', sans-serif;
+	background-color: pink;
+	margin-bottom: 30px;
+}
+.saisi .taille{
+	background-color: green;
+	width:50%;
+	height:30px;
+	margin-left: 25%;
+	margin-bottom: 10px;
+}
+.saisi .poids{
+	background-color: rgb(1, 12, 1);
+	width:50%;
+	height:30px;
+	margin-left: 25%;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.saisi .resultat{
+	/* background-color: green; */
+	width:50%;
+	height:30px;
+	margin-left: 25%;
+	
+}
+input{
+	text-align: center;
+	background-color: #e8e2e9;
+	color: #636399;
+	padding: 3px;
+}
+input:hover{
+	background-color: #f1a4be;
+	cursor: pointer;
+}
+input[type="button"]{
+	font-weight: bold;
+}
+
+#res_imc{
+	color: pink;
+	font-size: 35px;
+}
+img{
+	margin-top:5px;
+	margin-bottom:5px;
+}
+
+
+
+.div_imc
+{
+	float:left;
+	height:55px;
+	text-align:center;
+	padding-top:15px;
+	font-size:16px;
+	font-weight:bold;
+	color:#FFFFFF;
+	border-top:#666666 2px solid;
+	border-bottom:#666666 2px solid;
+	margin-top: 20px;
+}
+
+.div_imc_ind
+{
+	float:left;
+	width:4%;
+	height:10px;
+	text-align:center;
+}
+
+.div_tranche1
+{
+	background-color:#d1deef;
+}
+
+.div_tranche2
+{
+	background-color:#afa8f0;
+}
+
+.div_tranche3
+{
+	background-color:#636399;
+}
+
+
+
+
+
+.titre_page
+{
+	width:auto;
+	padding-top:18px;
+	height:42px;
+	font-family:Calibri;
+	color:#FFFFFF;
+	text-align:right;
+	background-image:url(../images/bg-tech-std.png);
+	background-repeat:no-repeat;
+	background-color:#666666;
+	padding-right:10px;
+}
+
+.div_saut_ligne
+{
+	width:100%;
+	height:5px;
+	display:inline-block;
+}
+
